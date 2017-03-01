@@ -7,14 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3E3842EF7C8BA331D9FE3B6C /* Pods_CardGame.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73E5CD36D5BE69F5BFC34DFF /* Pods_CardGame.framework */; };
 		AF02409B1E67314300DD17C0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF02409A1E67314300DD17C0 /* AppDelegate.swift */; };
 		AF02409D1E67314300DD17C0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF02409C1E67314300DD17C0 /* ViewController.swift */; };
 		AF0240A01E67314300DD17C0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF02409E1E67314300DD17C0 /* Main.storyboard */; };
 		AF0240A21E67314300DD17C0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AF0240A11E67314300DD17C0 /* Assets.xcassets */; };
 		AF0240A51E67314300DD17C0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF0240A31E67314300DD17C0 /* LaunchScreen.storyboard */; };
+		AF0240AD1E6731A700DD17C0 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = AF0240AC1E6731A700DD17C0 /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		05A34A867AD2D3B853A43379 /* Pods-CardGame.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CardGame.release.xcconfig"; path = "Pods/Target Support Files/Pods-CardGame/Pods-CardGame.release.xcconfig"; sourceTree = "<group>"; };
+		084BB696C598E33D27D82A31 /* Pods-CardGame.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CardGame.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CardGame/Pods-CardGame.debug.xcconfig"; sourceTree = "<group>"; };
+		73E5CD36D5BE69F5BFC34DFF /* Pods_CardGame.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CardGame.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AF0240971E67314200DD17C0 /* CardGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CardGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AF02409A1E67314300DD17C0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AF02409C1E67314300DD17C0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +27,7 @@
 		AF0240A11E67314300DD17C0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AF0240A41E67314300DD17C0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AF0240A61E67314300DD17C0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AF0240AC1E6731A700DD17C0 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +35,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3E3842EF7C8BA331D9FE3B6C /* Pods_CardGame.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7223E7D8830D443065FE47BA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				084BB696C598E33D27D82A31 /* Pods-CardGame.debug.xcconfig */,
+				05A34A867AD2D3B853A43379 /* Pods-CardGame.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		92A8A634863A0C8953B480C0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				73E5CD36D5BE69F5BFC34DFF /* Pods_CardGame.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		AF02408E1E67313E00DD17C0 = {
 			isa = PBXGroup;
 			children = (
 				AF0240991E67314200DD17C0 /* CardGame */,
 				AF0240981E67314200DD17C0 /* Products */,
+				7223E7D8830D443065FE47BA /* Pods */,
+				92A8A634863A0C8953B480C0 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -60,6 +86,7 @@
 				AF0240A11E67314300DD17C0 /* Assets.xcassets */,
 				AF0240A31E67314300DD17C0 /* LaunchScreen.storyboard */,
 				AF0240A61E67314300DD17C0 /* Info.plist */,
+				AF0240AC1E6731A700DD17C0 /* GoogleService-Info.plist */,
 			);
 			path = CardGame;
 			sourceTree = "<group>";
@@ -71,9 +98,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = AF0240A91E67314300DD17C0 /* Build configuration list for PBXNativeTarget "CardGame" */;
 			buildPhases = (
+				96F299EFB388C34C692968C5 /* [CP] Check Pods Manifest.lock */,
 				AF0240931E67313E00DD17C0 /* Sources */,
 				AF0240941E67313E00DD17C0 /* Frameworks */,
 				AF0240951E67313E00DD17C0 /* Resources */,
+				AADF3F8BDAD07E6CC8BD2C8C /* [CP] Embed Pods Frameworks */,
+				3EBEF4D65C3185707C7CC497 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -125,12 +155,61 @@
 			buildActionMask = 2147483647;
 			files = (
 				AF0240A51E67314300DD17C0 /* LaunchScreen.storyboard in Resources */,
+				AF0240AD1E6731A700DD17C0 /* GoogleService-Info.plist in Resources */,
 				AF0240A21E67314300DD17C0 /* Assets.xcassets in Resources */,
 				AF0240A01E67314300DD17C0 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3EBEF4D65C3185707C7CC497 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CardGame/Pods-CardGame-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		96F299EFB388C34C692968C5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		AADF3F8BDAD07E6CC8BD2C8C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CardGame/Pods-CardGame-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		AF0240931E67313E00DD17C0 /* Sources */ = {
@@ -259,6 +338,7 @@
 		};
 		AF0240AA1E67314300DD17C0 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 084BB696C598E33D27D82A31 /* Pods-CardGame.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 48WGY8KFKT;
@@ -272,6 +352,7 @@
 		};
 		AF0240AB1E67314300DD17C0 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 05A34A867AD2D3B853A43379 /* Pods-CardGame.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 48WGY8KFKT;
