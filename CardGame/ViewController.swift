@@ -7,13 +7,16 @@
 //
 
 import UIKit
+import Alamofire
 
 class ViewController: UIViewController {
+    
+
+    @IBOutlet var cardImage: UIImageView!
 
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
-        print("ok")
     }
 
     override func didReceiveMemoryWarning() {
@@ -21,6 +24,8 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
+    @IBAction func testButtonPressed(_ sender: UIBarButtonItem) {
+    }
 
 }
 

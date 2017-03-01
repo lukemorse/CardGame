@@ -14,7 +14,82 @@
 		AF0240A21E67314300DD17C0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AF0240A11E67314300DD17C0 /* Assets.xcassets */; };
 		AF0240A51E67314300DD17C0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF0240A31E67314300DD17C0 /* LaunchScreen.storyboard */; };
 		AF0240AD1E6731A700DD17C0 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = AF0240AC1E6731A700DD17C0 /* GoogleService-Info.plist */; };
+		AFD72F031E676BEE00C95AAA /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AFD72EF61E676AD800C95AAA /* Alamofire.framework */; };
+		AFD72F041E676BEE00C95AAA /* Alamofire.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = AFD72EF61E676AD800C95AAA /* Alamofire.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AFD72EF51E676AD800C95AAA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AFD72EEA1E676AD700C95AAA /* Alamofire.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = F8111E3319A95C8B0040E7D1;
+			remoteInfo = "Alamofire iOS";
+		};
+		AFD72EF71E676AD800C95AAA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AFD72EEA1E676AD700C95AAA /* Alamofire.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = F8111E3E19A95C8B0040E7D1;
+			remoteInfo = "Alamofire iOS Tests";
+		};
+		AFD72EF91E676AD800C95AAA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AFD72EEA1E676AD700C95AAA /* Alamofire.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 4DD67C0B1A5C55C900ED2280;
+			remoteInfo = "Alamofire macOS";
+		};
+		AFD72EFB1E676AD800C95AAA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AFD72EEA1E676AD700C95AAA /* Alamofire.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = F829C6B21A7A94F100A2CD59;
+			remoteInfo = "Alamofire macOS Tests";
+		};
+		AFD72EFD1E676AD800C95AAA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AFD72EEA1E676AD700C95AAA /* Alamofire.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 4CF626EF1BA7CB3E0011A099;
+			remoteInfo = "Alamofire tvOS";
+		};
+		AFD72EFF1E676AD800C95AAA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AFD72EEA1E676AD700C95AAA /* Alamofire.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 4CF626F81BA7CB3E0011A099;
+			remoteInfo = "Alamofire tvOS Tests";
+		};
+		AFD72F011E676AD800C95AAA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AFD72EEA1E676AD700C95AAA /* Alamofire.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = E4202FE01B667AA100C997FB;
+			remoteInfo = "Alamofire watchOS";
+		};
+		AFD72F051E676BEE00C95AAA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AFD72EEA1E676AD700C95AAA /* Alamofire.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = F8111E3219A95C8B0040E7D1;
+			remoteInfo = "Alamofire iOS";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		AFD72F071E676BEE00C95AAA /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				AFD72F041E676BEE00C95AAA /* Alamofire.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		05A34A867AD2D3B853A43379 /* Pods-CardGame.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CardGame.release.xcconfig"; path = "Pods/Target Support Files/Pods-CardGame/Pods-CardGame.release.xcconfig"; sourceTree = "<group>"; };
@@ -28,6 +103,7 @@
 		AF0240A41E67314300DD17C0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AF0240A61E67314300DD17C0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AF0240AC1E6731A700DD17C0 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		AFD72EEA1E676AD700C95AAA /* Alamofire.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Alamofire.xcodeproj; path = Alamofire/Alamofire.xcodeproj; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,6 +112,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3E3842EF7C8BA331D9FE3B6C /* Pods_CardGame.framework in Frameworks */,
+				AFD72F031E676BEE00C95AAA /* Alamofire.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -87,8 +164,23 @@
 				AF0240A31E67314300DD17C0 /* LaunchScreen.storyboard */,
 				AF0240A61E67314300DD17C0 /* Info.plist */,
 				AF0240AC1E6731A700DD17C0 /* GoogleService-Info.plist */,
+				AFD72EEA1E676AD700C95AAA /* Alamofire.xcodeproj */,
 			);
 			path = CardGame;
+			sourceTree = "<group>";
+		};
+		AFD72EEB1E676AD700C95AAA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AFD72EF61E676AD800C95AAA /* Alamofire.framework */,
+				AFD72EF81E676AD800C95AAA /* Alamofire iOS Tests.xctest */,
+				AFD72EFA1E676AD800C95AAA /* Alamofire.framework */,
+				AFD72EFC1E676AD800C95AAA /* Alamofire macOS Tests.xctest */,
+				AFD72EFE1E676AD800C95AAA /* Alamofire.framework */,
+				AFD72F001E676AD800C95AAA /* Alamofire tvOS Tests.xctest */,
+				AFD72F021E676AD800C95AAA /* Alamofire.framework */,
+			);
+			name = Products;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -104,10 +196,12 @@
 				AF0240951E67313E00DD17C0 /* Resources */,
 				AADF3F8BDAD07E6CC8BD2C8C /* [CP] Embed Pods Frameworks */,
 				3EBEF4D65C3185707C7CC497 /* [CP] Copy Pods Resources */,
+				AFD72F071E676BEE00C95AAA /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				AFD72F061E676BEE00C95AAA /* PBXTargetDependency */,
 			);
 			name = CardGame;
 			productName = CardGame;
@@ -142,12 +236,70 @@
 			mainGroup = AF02408E1E67313E00DD17C0;
 			productRefGroup = AF0240981E67314200DD17C0 /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = AFD72EEB1E676AD700C95AAA /* Products */;
+					ProjectRef = AFD72EEA1E676AD700C95AAA /* Alamofire.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				AF0240961E67313E00DD17C0 /* CardGame */,
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		AFD72EF61E676AD800C95AAA /* Alamofire.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Alamofire.framework;
+			remoteRef = AFD72EF51E676AD800C95AAA /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		AFD72EF81E676AD800C95AAA /* Alamofire iOS Tests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "Alamofire iOS Tests.xctest";
+			remoteRef = AFD72EF71E676AD800C95AAA /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		AFD72EFA1E676AD800C95AAA /* Alamofire.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Alamofire.framework;
+			remoteRef = AFD72EF91E676AD800C95AAA /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		AFD72EFC1E676AD800C95AAA /* Alamofire macOS Tests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "Alamofire macOS Tests.xctest";
+			remoteRef = AFD72EFB1E676AD800C95AAA /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		AFD72EFE1E676AD800C95AAA /* Alamofire.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Alamofire.framework;
+			remoteRef = AFD72EFD1E676AD800C95AAA /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		AFD72F001E676AD800C95AAA /* Alamofire tvOS Tests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "Alamofire tvOS Tests.xctest";
+			remoteRef = AFD72EFF1E676AD800C95AAA /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		AFD72F021E676AD800C95AAA /* Alamofire.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Alamofire.framework;
+			remoteRef = AFD72F011E676AD800C95AAA /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		AF0240951E67313E00DD17C0 /* Resources */ = {
@@ -222,6 +374,14 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AFD72F061E676BEE00C95AAA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Alamofire iOS";
+			targetProxy = AFD72F051E676BEE00C95AAA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		AF02409E1E67314300DD17C0 /* Main.storyboard */ = {
@@ -340,9 +500,11 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 084BB696C598E33D27D82A31 /* Pods-CardGame.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 48WGY8KFKT;
 				INFOPLIST_FILE = CardGame/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.Lukemorse.CardGame;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -354,9 +516,11 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 05A34A867AD2D3B853A43379 /* Pods-CardGame.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 48WGY8KFKT;
 				INFOPLIST_FILE = CardGame/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.Lukemorse.CardGame;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -383,6 +547,7 @@
 				AF0240AB1E67314300DD17C0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
